@@ -1,4 +1,4 @@
 provider "github" {
-  token        = "****************************************"
+  token        = "${var.github_token}"
   organization = "harishsrs"
 }
